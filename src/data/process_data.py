@@ -1,5 +1,11 @@
 import pandas as pd
-import helpers.DataLoader as Dtl
+import helpers.DataLoader as Dtl  
+
+#Solución sugeridad por demás compañeros al problema sobre "ModuleNotFoudError: No module named 'helpers'"
+#import os
+#import sys
+#sys.path.insert(0, os.path.join(os.path.dirname(sys.path[0]),"helpers"))
+#from DataLoader import *  
 
 # Ruta del archivo de datos en bruto
 input_filepath = "./data/raw/RH_bruto.csv"

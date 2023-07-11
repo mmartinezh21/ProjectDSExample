@@ -3,7 +3,17 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import preprocessing
-import helpers.DataLoader as Dtl
+import helpers.DataLoader as Dtl  
+
+#Solución sugeridad por demás compañeros al problema sobre "ModuleNotFoudError: No module named 'helpers'"
+#import os
+#import sys
+#sys.path.insert(0, os.path.join(os.path.dirname(sys.path[0]),"helpers"))
+#from DataLoader import * 
+ 
+
+
+
 
 # Leer los datos
 #df = pd.read_csv("./data/processed/RH_procesado.csv") Código antes de cambiar a POO
